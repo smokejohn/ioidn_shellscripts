@@ -22,21 +22,15 @@ The denoiser offers input for 3 passes (beauty, albedo, normal) and delivers way
 
 These shell scripts rely on ImageMagick in addition to the IntelOpenImageDenoiser and expect the binaries to reside
 in the following folder structure
-
+```
 .
-
 +-- lib/
-
     +-- ImageMagick/
-
     +-- OIDN/
-
 DenoiseHDR.cmd
-
 DenoiseHDR_Alpha.cmd
-
 ...
-
+```
 get the required binaries here:
 [ImageMagick] (https://imagemagick.org/download/binaries/ImageMagick-7.0.8-41-portable-Q16-x64.zip)
 ImageMagick Portable 64-bit (7.0.8.41)
@@ -47,34 +41,22 @@ unzip ImageMagick and place the contents of the folder into lib/ImageMagick
 unzip oidn and place the contents of the folder into lib/OIDN
 
 Tree structure should look like this in the end:
+
+```
 .
-
 +-- lib/
-
     +-- ImageMagick/
-
         +-- images
-
         +-- www
-
         Changelog
-
         colors.xml
-
         ...
-
     +-- OIDN/
-
         +-- bin
-
         +-- doc
-
         +-- include
-
         +-- lib
-
 DenoiseHDR.cmd
-
 DenoiseHDR_Alpha.cmd
-
 ...
+```
