@@ -33,13 +33,13 @@ DenoiseHDR_Alpha.cmd
 ```
 get the required binaries here:
 
-[ImageMagick](https://imagemagick.org/download/binaries/ImageMagick-7.0.8-41-portable-Q16-x64.zip) - ImageMagick Portable 64-bit (7.0.8.41)
+* [ImageMagick](https://imagemagick.org/download/binaries/ImageMagick-7.0.8-41-portable-Q16-x64.zip) - ImageMagick Portable 64-bit (7.0.8.41)
 
-[IntelOpenImageDenoise](https://github.com/OpenImageDenoise/oidn/releases/download/v0.8.2/oidn-0.8.2.x64.vc14.windows.zip) - oidn-0.8.2.x64.vc.windows.zip
+* [IntelOpenImageDenoise](https://github.com/OpenImageDenoise/oidn/releases/download/v0.8.2/oidn-0.8.2.x64.vc14.windows.zip) - oidn-0.8.2.x64.vc.windows.zip
 
-unzip ImageMagick and place the contents of the folder into lib/ImageMagick
+* unzip ImageMagick and place the contents of the folder into lib/ImageMagick
 
-unzip oidn and place the contents of the folder into lib/OIDN
+* unzip oidn and place the contents of the folder into lib/OIDN
 
 Your Folder structure should look like this in the end:
 
