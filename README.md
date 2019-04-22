@@ -5,9 +5,13 @@ Simple Windows shell scripts with Drag&Drop support, just drag the image you wan
 ## Scripts
 
 DenoiseHDR.cmd - For denoising HighDynamicRange images (openEXR)
+
 DenoiseHDR_Alpha.cmd - Same as DenoiseHDR but keeps the Alpha Channel
+
 DenoiseLDR.cmd - For denoising LowDynamicRange images (Standard 8bit srgb images) (recommended format .png)
+
 DenoiseLDR_Alpha.cmd - Same as DenoiseLDR but keeps the Alpha Channel
+
 DenoiseLDR_Anim.cmd - For denoising Animations, simply drag the image sequence onto this script
 
 Heads up: Currently the shell scripts perform the most basic denoise the binary offers, taking only the beauty pass render
@@ -20,11 +24,17 @@ These shell scripts rely on ImageMagick in addition to the IntelOpenImageDenoise
 in the following folder structure
 
 .
+
 +-- lib/
+
     +-- ImageMagick/
+
     +-- OIDN/
+
 DenoiseHDR.cmd
+
 DenoiseHDR_Alpha.cmd
+
 ...
 
 get the required binaries here:
@@ -38,18 +48,33 @@ unzip oidn and place the contents of the folder into lib/OIDN
 
 Tree structure should look like this in the end:
 .
+
 +-- lib/
+
     +-- ImageMagick/
+
         +-- images
+
         +-- www
+
         Changelog
+
         colors.xml
+
         ...
+
     +-- OIDN/
+
         +-- bin
+
         +-- doc
+
         +-- include
+
         +-- lib
+
 DenoiseHDR.cmd
+
 DenoiseHDR_Alpha.cmd
-.
+
+...
