@@ -46,13 +46,13 @@ Your Folder structure should look like this in the end:
 ```
 .
 +-- lib/
-    --- ImageMagick/
+    ~-- ImageMagick/
         +-- images
         +-- www
         Changelog
         colors.xml
         ...
-    --- OIDN/
+    ~-- OIDN/
         +-- bin
         +-- doc
         +-- include
